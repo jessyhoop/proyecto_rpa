@@ -134,7 +134,7 @@
                 <InArgument x:TypeArguments="s:String[]">[Split(varTextoAescribir,",")]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="334,111.333333333333" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;encontre&quot; +arrayPalabrasClaves.Length().ToString+&quot;palabras claaves&quot;]" />
+            <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="334,111.333333333333" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Encontre&quot; +arrayPalabrasClaves.Length().ToString+&quot; palabras claves&quot;]" />
             <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="Assign_6">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:Int32">[varCantidadArchivos]</OutArgument>
